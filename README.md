@@ -33,5 +33,3 @@ Inspiration
 etc
 📝 License
 This project is MIT licensed.
-
-NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
