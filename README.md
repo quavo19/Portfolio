@@ -10,10 +10,10 @@
 
 To get a local copy up and running follow these simple example steps.
 
--copy the url of the repository 
--clone the repository in a folder using the comand (git clone url)
--Install
--Use
+- copy the url of the repository 
+- clone the repository in a folder using the comand (git clone url)
+- Install
+- Use
 
 ## Author
 👤 Donald Akite
