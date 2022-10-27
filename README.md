@@ -1,13 +1,13 @@
 # Mobile-First
-Project Name
-Simple mobile form of mu portfolio
+# Project Name
+Simple mobile form of my portfolio
 
-Built With
+## Built With
 html
 css
 figma
 
-Getting Started
+## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
@@ -15,7 +15,7 @@ copy the url of the repository
 clone the repository in a folder using comand line 
 Install
 Use
-Authors
+## Author
 👤 Donald Akite
 
 GitHub: @quavo19
@@ -24,12 +24,12 @@ LinkedIn: donaldakite
 
 Feel free to check the issues page.
 
-Show your support
+## Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+## Acknowledgments
 Hat tip to anyone whose code was used
 Inspiration
 etc
-📝 License
+## 📝 License
 This project is MIT licensed.
