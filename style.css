@@ -23,23 +23,26 @@ body {
 }
 
 .box2 {
-  background-image: url('img/bg.png');
+  background-image: url('img/bg1.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 75vh;
   position: relative;
   padding-bottom: 5rem;
   border-bottom-left-radius: 5rem;
   box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
 }
 
-.greet h2 {
+.greet h1 {
   font-size: 3rem;
   line-height: 60px;
   color: #091e42;
   padding: 5rem 1rem 1rem 1rem;
   padding-bottom: 1rem;
   align-items: center;
+}
+
+.box .greet h1 {
+  font-weight: 700;
 }
 
 .bar {
