@@ -31,9 +31,6 @@ body {
   border-bottom-left-radius: 5rem;
   box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
 }
-.box .greet h1{
-  font-weight: 700;
-}
 
 .greet h1 {
   font-size: 3rem;
@@ -42,6 +39,10 @@ body {
   padding: 5rem 1rem 1rem 1rem;
   padding-bottom: 1rem;
   align-items: center;
+}
+
+.box .greet h1 {
+  font-weight: 700;
 }
 
 .bar {
