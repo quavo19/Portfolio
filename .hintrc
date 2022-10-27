@@ -3,7 +3,7 @@
       "name": "local",
       "options": {
         "pattern": ["**", "!.git/**", "!node_modules/**"]
-      }
+      } 
     },
     "extends": ["development"],
     "formatters": ["stylish"],
