@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +23,7 @@ body {
 }
 
 .box2 {
-  background-image: url('img/bg.png');
+  background-image: url('img/bg1.png');
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
@@ -34,10 +35,9 @@ body {
   font-weight: 700;
 }
 
-.greet .msg {
-  font-weight: 700;
+.greet h1 {
   font-size: 3rem;
-  line-height: 52px;
+  line-height: 60px;
   color: #091e42;
   padding: 5rem 1rem 1rem 1rem;
   padding-bottom: 1rem;
