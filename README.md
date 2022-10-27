@@ -2,9 +2,9 @@
 # Portfolio 
 
 ## Built With
--html
--css
--figma
+- html
+- css
+- figma
 
 ## Getting Started
 
@@ -18,11 +18,11 @@ To get a local copy up and running follow these simple example steps.
 ## Author
 👤 Donald Akite
 
--GitHub: @quavo19
--Twitter: @donaldakite
+- GitHub: @quavo19
+- Twitter: @donaldakite
 
-# Feel free to check the issues page.
-## Live Demo (if available)
+## Feel free to check the issues page.
+## Live Demo 
 
 [Live Demo Link](not available yet)
 
