@@ -1,7 +1,7 @@
 
 # Personal Portfolio 
 
-# personal Portfolio 
+## this is a project i made for my portfolio
 
 ## Built With
 - html
@@ -20,8 +20,8 @@ To get a local copy up and running follow these simple example steps.
 ## Author
 👤 Donald Akite
 
-- GitHub: @quavo19
-- Twitter: @donaldakite
+- GitHub: @ https://github.com/quavo19
+- Twitter:@ https://twitter.com/DonaldAkite
 
 ## Feel free to check the issues page.
 ## Live Demo 
