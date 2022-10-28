@@ -24,6 +24,7 @@ body {
 
 .box2 {
   background-image: url('img/bg1.png');
+  background-color: #fff;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
@@ -56,7 +57,7 @@ body {
 
 .social-icons {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   padding: 0 1rem;
 }
 
@@ -76,7 +77,7 @@ li {
 
 .connect {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 23px;
   line-height: 24px;
   color: #7f8cff;
   padding: 1rem;
@@ -94,6 +95,7 @@ img {
   align-items: center;
   padding: 16px;
   gap: 12px;
+  background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 12px;
   margin: 20px;
@@ -107,6 +109,8 @@ img {
 
 .second-section {
   padding-top: 25px;
+  background-color: #f9f6f6;
+  box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
 }
 
 .canopy {
@@ -165,6 +169,10 @@ ul .skill {
   border-radius: 5px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .col-5 a {
   text-decoration: none;
 }
@@ -191,4 +199,115 @@ ul .skill {
   height: 40%;
   border: 2px solid #7f8cff;
   border-radius: 11px;
+}
+
+.two {
+  padding: 12px;
+  font-weight: 600;
+  display: flex;
+  color: #7f8cff;
+  justify-content: center;
+}
+
+.About {
+  line-height: 60px;
+  color: #091e42;
+  padding: 5rem 0.1rem 1rem 0.1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.info2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.msg2 {
+  line-height: 1.2;
+}
+
+.connect2 {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.about-section {
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  background-color: #fff;
+  margin: 20px;
+  width: 94%;
+  background-size: 100%;
+  position: relative;
+  padding-bottom: 5rem;
+  border-top-right-radius: 5rem;
+  box-shadow: -10px 5px 10px 6px rgba(207, 205, 205, 0.501);
+}
+
+.work1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang {
+  font-size: 23px;
+  line-height: 24px;
+  color: #000;
+  padding: 1rem;
+  padding-top: calc(15% - 24px / 2);
+}
+
+.arrow {
+  line-height: 24px;
+  padding: 1rem;
+  padding-top: calc(15% - 24px / 2);
+}
+
+.small-image {
+  width: 48px;
+  height: 48px;
+  left: 12px;
+}
+
+.list-content {
+  display: flex;
+  align-content: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  background-color: #f9f6f6;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+
+.list-item {
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #000;
+}
+
+.lang-list {
+  padding-left: 15px;
+}
+
+.lang-list li {
+  padding: 5px;
+}
+
+.bar2 {
+  display: block;
+  height: 1.5px;
+  width: 100%;
+  background-color: #dfe1e6;
+  margin: 3px;
+  border-radius: 5px;
 }
