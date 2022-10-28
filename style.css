@@ -89,16 +89,17 @@ li {
 img {
   width: 100%;
 }
-.tonic {
 
+.tonic {
   align-items: center;
   padding: 16px;
   gap: 12px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 12px;
   margin: 20px;
 }
- .greet .name {
+
+.greet .name {
   padding-top: 13px;
   padding-bottom: 13px;
   font-size: 2.5rem;
@@ -106,7 +107,6 @@ img {
 
 .second-section {
   padding-top: 25px;
-  
 }
 
 .canopy {
@@ -120,13 +120,13 @@ img {
   display: flex;
   height: 8px;
   width: 8px;
-  background:#C1C7D0;
+  background: #c1c7d0;
   margin: 3px;
   border-radius: 5px;
 }
 
 .row {
-  color:#727d8d;
+  color: #727d8d;
   padding-bottom: 12px;
   font-size: 16px;
   font-weight: 600;
@@ -149,13 +149,13 @@ img {
 .col-4 {
   width: 90%;
   padding-top: 25px;
-  padding: 4px, 12px, 4px, 12px;
 }
+
 .skill {
   display: flex;
   width: 90%;
   justify-content: space-between;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 ul .skill {
@@ -165,30 +165,30 @@ ul .skill {
   border-radius: 5px;
 }
 
+.col-5 a {
+  text-decoration: none;
+}
+
 .skill li a {
   padding: 4px 12px;
   color: #7f8cff;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   text-decoration: none;
 }
 
 .btn {
- font-weight: 600;
- font-size: 19px;
- display: flex;
- color:  #7f8cff;
- justify-content: center;
- padding: 18px;
+  font-weight: 600;
+  font-size: 19px;
+  display: flex;
+  color: #7f8cff;
+  justify-content: center;
+  padding: 18px;
 }
 
-.col-5 a {
- text-decoration: none;
-}
 .col-5 {
- width: 160px;
- height: 40%;
- border: 2px solid #7f8cff;
- border-radius: 11px;
- 
+  width: 160px;
+  height: 40%;
+  border: 2px solid #7f8cff;
+  border-radius: 11px;
 }
