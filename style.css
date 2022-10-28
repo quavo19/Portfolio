@@ -32,7 +32,7 @@ body {
   box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
 }
 
-.greet h1 {
+.greet .msg {
   font-size: 3rem;
   line-height: 60px;
   color: #091e42;
@@ -61,6 +61,7 @@ body {
 }
 
 li {
+  font-weight: 600;
   list-style: none;
 }
 
@@ -79,4 +80,117 @@ li {
   line-height: 24px;
   color: #7f8cff;
   padding: 1rem;
+}
+
+.col-1{
+  align-items: center;
+}
+
+img{
+  width: 100%;
+}
+.tonic{
+
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  border: 1px solid #DFE1E6;
+  border-radius: 12px;
+  margin: 20px;
+}
+ .greet .name {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 2.5rem;
+}
+
+.second-section{
+  padding-top: 25px;
+  
+}
+
+.canopy{
+  color: #344563;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.dot {
+  display: flex;
+  height: 8px;
+  width: 8px;
+  background:#C1C7D0;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.row{
+  color:#727d8d;
+  padding-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.col-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.dos {
+  color: #7082a0;
+  font-weight: 600;
+  line-height: 24px;
+  padding-top: 12px;
+}
+
+.col-4{
+  width: 90%;
+  padding-top: 25px;
+  padding: 4px, 12px, 4px, 12px;
+}
+.skill {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  color: #6070FF;
+}
+
+ul .skill {
+  background: aqua;
+  width: 25%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.skill li a{
+  padding: 4px 12px;
+  color: #7f8cff;
+  background: #EBEBFF;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn {
+  
+font-weight: 600;
+font-size: 19px;
+display: flex;
+color:  #7f8cff;
+justify-content: center;
+padding: 18px;
+}
+
+.col-5 a {
+text-align: center;
+text-decoration: none;
+}
+.col-5 {
+width: 50%;
+height: 40%;
+border: 2px solid #7f8cff;
+border-radius: 11px;
+ 
 }
