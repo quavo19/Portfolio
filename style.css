@@ -314,14 +314,6 @@ a {
   border-radius: 5px;
 }
 
-two:hover {
-  background-color: #6070ff;
-}
-
-.btn:hover {
-  background-color: #6070ff;
-}
-
-.col-5:hover{
+.col-5:hover {
   background-color: #6070ff;
 }
