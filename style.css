@@ -108,6 +108,8 @@ img {
 }
 
 .second-section {
+  display: flex;
+  flex-direction: column;
   padding-top: 25px;
   background-color: #f9f6f6;
   box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
@@ -210,6 +212,7 @@ a {
 }
 
 .About {
+  display: flex;
   line-height: 60px;
   color: #091e42;
   padding: 5rem 0.1rem 1rem 0.1rem;
@@ -241,7 +244,8 @@ a {
 }
 
 .about-section {
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   padding: 16px;
   gap: 12px;
   background-color: #fff;
@@ -309,4 +313,12 @@ a {
   background-color: #dfe1e6;
   margin: 3px;
   border-radius: 5px;
+}
+
+.two:hover{
+  background-color: #6070ff;
+}
+
+.btn:hover{
+  background-color: #6070ff;
 }
