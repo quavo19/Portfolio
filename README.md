@@ -1,6 +1,8 @@
 
 # Personal Portfolio 
 
+# personal Portfolio 
+
 ## Built With
 - html
 - css
@@ -21,8 +23,8 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: @quavo19
 - Twitter: @donaldakite
 
-# Feel free to check the issues page.
-## Live Demo (if available)
+## Feel free to check the issues page.
+## Live Demo 
 
 [Live Demo Link](not available yet)
 
