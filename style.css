@@ -92,8 +92,8 @@ img {
 }
 
 .tonic {
-  display: grid;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   padding: 16px;
   gap: 12px;
   background-color: #fff;
@@ -109,8 +109,8 @@ img {
 }
 
 .second-section {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-auto-columns: auto;
   padding-top: 25px;
   background-color: #f9f6f6;
   box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
