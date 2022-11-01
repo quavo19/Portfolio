@@ -334,14 +334,13 @@ textarea {
 
 .form-section {
   width: 100%;
-  height: 779px;
   top: 5410px;
   background-image: url(img/1.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 215px;
   background-position-x: 100%;
-  background-position-y: 9px;
+  background-position-y: 15px;
   padding-bottom: 5rem;
   border-top-left-radius: 5rem;
   display: flex;
@@ -358,6 +357,7 @@ textarea {
 .name-input {
   height: 48px;
   border: 1px solid cfd8dc;
+  border: 1px solid #cfd8dc;
   width: 100%;
   border-radius: 8px;
   font-weight: 700;
@@ -383,6 +383,7 @@ textarea {
 
 .form-section .msg {
   color: #fff;
+  font-size: 2.5rem;
 }
 
 .form-section .info {
