@@ -253,7 +253,7 @@ a {
   position: relative;
   padding-bottom: 5rem;
   border-top-right-radius: 5rem;
-  box-shadow: -10px 5px 10px 6px rgba(207, 205, 205, 0.501);
+  box-shadow: 10px 5px -10px 6px rgba(207, 205, 205, 0.501);
 }
 
 .work1 {
@@ -316,4 +316,117 @@ a {
 
 .col-5:hover {
   background-color: #6070ff;
+}
+
+.form {
+  width: 95%;
+}
+
+input {
+  margin: 10px 0;
+  outline: none;
+}
+
+textarea {
+  outline: none;
+  margin: 10px 0;
+}
+
+.form-section {
+  width: 100%;
+  top: 5410px;
+  background-image: url(img/1.png);
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-size: 215px;
+  background-position-x: 100%;
+  background-position-y: 15px;
+  padding-bottom: 5rem;
+  border-top-left-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-details {
+  display: flex;
+  flex-direction: column;
+  padding: 17px;
+}
+
+.name-input {
+  height: 48px;
+  border: 1px solid cfd8dc;
+  border: 1px solid #cfd8dc;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 17px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.email-input {
+  height: 48px;
+  width: 100%;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  padding: 17px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.form-section .msg {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.form-section .info {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.msg-input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 17px;
+  font-size: 15px;
+  line-height: 20px;
+  height: 149px;
+  padding-left: 17px;
+  color: #172b4d;
+}
+
+.msg-input::placeholder {
+  color: #b3bac5;
+}
+
+.submit .col-5 {
+  background-color: #fff;
+}
+
+.button {
+  width: 160px;
+  border: 2px solid #7f8cff;
+  border-radius: 7px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #7f8cff;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #344563;
 }
