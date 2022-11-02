@@ -497,9 +497,8 @@ textarea {
     width: 40%;
   }
 
-  .tonic-3{
-    padding: 20px;
-    width: 40%;
-    flex: ;
+  .about-section{
+    display: flex;
+    flex-direction: row;
   }
 }
