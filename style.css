@@ -430,3 +430,60 @@ textarea {
 .button:hover {
   background-color: #344563;
 }
+
+/* desktop version mode */
+
+.nav-list {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .box2 {
+    background-image: url('img/bigbg.png');
+    background-size: 98%;
+    height: 100vh;
+    background-position-y: 5px;
+    background-position-x: 10px;
+    padding: 10% 15%;
+  }
+
+  .nav-bar {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40%;
+    font-weight: 700;
+  }
+
+  .logo {
+    padding-left: 200%;
+  }
+
+  .nav-list-item li a {
+    padding: 4px 12px;
+    color: #6070ff;
+    text-decoration: none;
+  }
+
+  .tonic {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .col-1 {
+    width: 55%;
+    height: 100%;
+  }
+
+  .tonic-2 {
+    padding: 20px;
+    width: 40%;
+  }
+}
