@@ -483,7 +483,10 @@ textarea {
     width: 55%;
     height: 100%;
   }
-
+  .col-2{
+    width: 270px;
+  }
+  
   .left {
     order: 1;
   }
@@ -515,8 +518,21 @@ textarea {
   }
 
   .list-content {
-    padding-left: 2%;
-    padding-top: 2%;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-item{
+    padding-left: 5px;
+  }
+
+  .lang-list ul{
+    display: flex;
+  }
+
+  .lang-list ul a {
+    width: 120px;
   }
 
   .form-section {
