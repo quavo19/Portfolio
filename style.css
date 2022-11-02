@@ -62,7 +62,6 @@ body {
 }
 
 li {
-  font-weight: 600;
   list-style: none;
 }
 
@@ -271,7 +270,6 @@ a {
 
 .arrow {
   line-height: 24px;
-  padding: 1rem;
   padding-top: calc(15% - 24px / 2);
 }
 
@@ -310,8 +308,6 @@ a {
   height: 1.5px;
   width: 100%;
   background-color: #dfe1e6;
-  margin: 3px;
-  border-radius: 5px;
 }
 
 .col-5:hover {
@@ -432,7 +428,7 @@ textarea {
   background-color: #6070ff;
 }
 
-.two:hover{
+.two:hover {
   color: #fff;
 }
 
@@ -488,7 +484,7 @@ textarea {
     height: 100%;
   }
 
-  .left{
+  .left {
     order: 1;
   }
 
@@ -497,8 +493,44 @@ textarea {
     width: 40%;
   }
 
-  .about-section{
+  .about-section {
     display: flex;
     flex-direction: row;
+  }
+
+  .msg2,
+  .info2,
+  .connect2,
+  .social-icons {
+    padding-bottom: 20px;
+  }
+
+  .row-1 {
+    width: 40%;
+    padding-left: 10%;
+  }
+
+  .row-2 {
+    width: 40%;
+  }
+
+  .list-content {
+    padding-left: 2%;
+    padding-top: 2%;
+  }
+
+  .form-section {
+    background-image: url('img/form.png');
+    background-size: contain;
+    background-position-x: 30px;
+    height: 100vh;
+  }
+
+  .form-section .info {
+    width: 50%;
+  }
+
+  .form {
+    width: 30%;
   }
 }
