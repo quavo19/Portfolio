@@ -62,7 +62,6 @@ body {
 }
 
 li {
-  font-weight: 600;
   list-style: none;
 }
 
@@ -271,7 +270,6 @@ a {
 
 .arrow {
   line-height: 24px;
-  padding: 1rem;
   padding-top: calc(15% - 24px / 2);
 }
 
@@ -310,11 +308,10 @@ a {
   height: 1.5px;
   width: 100%;
   background-color: #dfe1e6;
-  margin: 3px;
-  border-radius: 5px;
 }
 
 .col-5:hover {
+  color: #fff;
   background-color: #6070ff;
 }
 
@@ -351,6 +348,7 @@ textarea {
 .form-details {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 17px;
 }
 
@@ -422,11 +420,138 @@ textarea {
   padding: 12px;
   font-size: 17px;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 15px;
   color: #7f8cff;
   justify-content: center;
 }
 
 .button:hover {
-  background-color: #344563;
+  background-color: #6070ff;
+}
+
+.two:hover {
+  color: #fff;
+}
+
+/* desktop version mode */
+
+.nav-list {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .box2 {
+    background-image: url('img/bigbg.png');
+    background-size: 98%;
+    height: 100vh;
+    background-position-y: 5px;
+    background-position-x: 10px;
+    padding: 10% 15%;
+  }
+
+  .nav-bar {
+    width: 100%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40%;
+    font-weight: 700;
+  }
+
+  .logo {
+    padding-left: 200%;
+  }
+
+  .nav-list-item li a {
+    padding: 4px 12px;
+    color: #6070ff;
+    text-decoration: none;
+  }
+
+  .tonic {
+    order: 2;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .col-1 {
+    width: 55%;
+    height: 100%;
+  }
+
+  .col-2 {
+    width: 270px;
+  }
+
+  .left {
+    order: 1;
+  }
+
+  .tonic-2 {
+    padding: 20px;
+    width: 40%;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .msg2,
+  .info2,
+  .connect2,
+  .social-icons {
+    padding-bottom: 20px;
+  }
+
+  .row-1 {
+    width: 40%;
+    padding-left: 10%;
+  }
+
+  .row-2 {
+    width: 40%;
+  }
+
+  .list-content {
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-item {
+    padding-left: 5px;
+  }
+
+  .lang-list ul {
+    display: flex;
+  }
+
+  .lang-list ul a {
+    width: 120px;
+  }
+
+  .form-section {
+    background-image: url('img/form.png');
+    background-size: contain;
+    background-position-x: 30px;
+  }
+
+  .form-details {
+    align-items: center;
+  }
+
+  .form-section .info {
+    width: 50%;
+  }
+
+  .form {
+    width: 30%;
+  }
 }
