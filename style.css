@@ -476,6 +476,10 @@ textarea {
     transition: 0.2s ease-in-out;
   }
 
+  .lang-list ul a {
+    width: 120px;
+  }
+
   .nav-list-item li a:hover {
     background-color: #6070ff;
     color: white;
@@ -542,10 +546,6 @@ textarea {
 
   .lang-list ul {
     display: flex;
-  }
-
-  .lang-list ul a {
-    width: 120px;
   }
 
   .form-section {
