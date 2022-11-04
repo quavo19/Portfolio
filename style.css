@@ -472,6 +472,13 @@ textarea {
     padding: 4px 12px;
     color: #6070ff;
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  .nav-list-item li a:hover {
+    background-color: #6070ff;
+    color: white;
   }
 
   .tonic {
@@ -508,6 +515,10 @@ textarea {
   .connect2,
   .social-icons {
     padding-bottom: 20px;
+  }
+
+  .social-icons li:hover {
+    cursor: pointer;
   }
 
   .row-1 {
