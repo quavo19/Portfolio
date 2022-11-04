@@ -472,6 +472,17 @@ textarea {
     padding: 4px 12px;
     color: #6070ff;
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  .lang-list ul a {
+    width: 120px;
+  }
+
+  .nav-list-item li a:hover {
+    background-color: #6070ff;
+    color: white;
   }
 
   .tonic {
@@ -510,6 +521,10 @@ textarea {
     padding-bottom: 20px;
   }
 
+  .social-icons li:hover {
+    cursor: pointer;
+  }
+
   .row-1 {
     width: 40%;
     padding-left: 10%;
@@ -531,10 +546,6 @@ textarea {
 
   .lang-list ul {
     display: flex;
-  }
-
-  .lang-list ul a {
-    width: 120px;
   }
 
   .form-section {
