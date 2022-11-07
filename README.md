@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo 
 
-[Live Demo Link](not available yet)
+you can view a live demo from [here](https://quavo19.github.io/Donald)
 
 ## Show your support
 Give a ⭐️ if you like this project!
