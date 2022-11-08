@@ -416,19 +416,20 @@ textarea {
 
 .button {
   width: 160px;
-  border: 2px solid #2838cb;
+  border: 2px solid #000000;
   border-radius: 7px;
   padding: 12px;
   font-size: 17px;
   font-weight: 600;
   line-height: 15px;
+  background-color: #fff;
   color: #13131c;
   justify-content: center;
 }
 
 .button:hover {
   background-color: #01041b;
-  color: #f9f6f6;
+  color: #fff;
 }
 
 .two:hover {
