@@ -427,6 +427,7 @@ textarea {
 
 .button:hover {
   background-color: #6070ff;
+  color: #f9f6f6;
 }
 
 .two:hover {
@@ -439,7 +440,7 @@ textarea {
   display: none;
 }
 
-.msg-input:focus,
+.nmsg-iput:focus,
 input:focus {
   background: #bababc;
 }
