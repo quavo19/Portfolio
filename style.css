@@ -160,7 +160,7 @@ img {
   display: flex;
   width: 90%;
   justify-content: space-between;
-  color: #6070ff;
+  color: #181c42;
 }
 
 ul .skill {
@@ -180,8 +180,9 @@ a {
 
 .skill li a {
   padding: 4px 12px;
-  color: #7f8cff;
-  background: #ebebff;
+  color: #fff;
+  outline: #0d0d17;
+  background: #0d0d17;
   border-radius: 8px;
   text-decoration: none;
 }
@@ -190,14 +191,14 @@ a {
   font-weight: 600;
   font-size: 19px;
   display: flex;
-  color: #7f8cff;
+  color: #111427;
   justify-content: center;
   padding: 18px;
 }
 
 .col-5 {
   width: 160px;
-  border: 2px solid #7f8cff;
+  border: 2px solid #0d1345;
   border-radius: 11px;
 }
 
@@ -205,7 +206,7 @@ a {
   padding: 12px;
   font-weight: 600;
   display: flex;
-  color: #7f8cff;
+  color: #0d0f20;
   justify-content: center;
 }
 
@@ -312,7 +313,7 @@ a {
 
 .col-5:hover {
   color: #fff;
-  background-color: #6070ff;
+  background-color: #05060f;
 }
 
 .form {
@@ -415,18 +416,18 @@ textarea {
 
 .button {
   width: 160px;
-  border: 2px solid #7f8cff;
+  border: 2px solid #2838cb;
   border-radius: 7px;
   padding: 12px;
   font-size: 17px;
   font-weight: 600;
   line-height: 15px;
-  color: #7f8cff;
+  color: #13131c;
   justify-content: center;
 }
 
 .button:hover {
-  background-color: #6070ff;
+  background-color: #171825;
   color: #f9f6f6;
 }
 
@@ -476,7 +477,7 @@ input:focus {
 
   .nav-list-item li a {
     padding: 4px 12px;
-    color: #6070ff;
+    color: #10132e;
     text-decoration: none;
     cursor: pointer;
     transition: 0.2s ease-in-out;
@@ -487,7 +488,8 @@ input:focus {
   }
 
   .nav-list-item li a:hover {
-    background-color: #6070ff;
+    background-color: #162cef;
+    outline: #162cef;
     color: white;
   }
 
