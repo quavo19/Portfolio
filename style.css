@@ -18,16 +18,30 @@ body {
   font-weight: bold;
 }
 
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col-5 a {
+  text-decoration: none;
+}
+
 #menupopup {
   width: 100%;
   height: 100%;
   display: none;
-  background-color: #6070FF;
+  background-color: #6070ff;
   position: absolute;
   top: 0;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
 }
 
-#menupopup img {
+.menupopup img {
   width: 12px;
   height: 12px;
   position: absolute;
@@ -35,11 +49,18 @@ body {
   right: 5%;
 }
 
-#menupopup ul {
+.menupopup ul {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
   font-weight: 600;
   font-size: 32px;
+  padding: 15% 5%;
+}
+
+.menupopup ul a {
+  padding-top: 26px;
   color: #fff;
 }
 
@@ -52,7 +73,6 @@ body {
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: 100%;
-  /* position: relative; */
   padding-bottom: 5rem;
   border-bottom-left-radius: 5rem;
   box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
@@ -109,10 +129,6 @@ li {
 
 .col-1 {
   align-items: center;
-}
-
-img {
-  width: 100%;
 }
 
 .tonic {
@@ -193,14 +209,6 @@ ul .skill {
   width: 25%;
   text-align: center;
   border-radius: 5px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.col-5 a {
-  text-decoration: none;
 }
 
 .skill li a {
