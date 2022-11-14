@@ -31,9 +31,9 @@
             <div class="nav-list">
                 <ul class="nav-list-item">
                     <li>
-                        <a href="#">Portfolio</a>
-                        <a href="#">About</a>
-                        <a href="#">Contact</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -46,12 +46,12 @@
 
 
         </nav>
-        <div onclick="close1()" id="menupopup">
+        <div class="menupopup" onclick="close1()" id="menupopup">
             <img onclick="close1()" src="./img/Icon.png" alt="icon-png">
             <ul>
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
             </ul>
         </div>
     </header>
@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <section class="second-section">
+    <section class="second-section" id="portfolio">
         <header class="tonic">
             <div class="col-1"> <img src="img/tonic.png" alt="image of card"></div>
             <div class="tonic-2">
@@ -304,7 +304,7 @@
 
     </section>
 
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="row-1">
             <div class="About" font-weight="bold">
                 <h1 class="msg2">About <br> Myself</h1>
@@ -469,7 +469,7 @@
     </section>
 
 
-    <section class="form-section">
+    <section class="form-section" id="contact">
         <div class="greet" font-weight="bold">
             <h1 class="msg">Contact me</h1>
         </div>
