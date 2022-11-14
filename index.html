@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <script src="main.js"></script>
+    
     <header class="nav-container">
         <nav class="nav-bar">
             <a href="">
@@ -38,7 +38,7 @@
                 </ul>
             </div>
 
-            <div onclick="toggle()" class="hamburger">
+            <div  class="hamburger" id="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -46,8 +46,8 @@
 
 
         </nav>
-        <div class="menupopup" onclick="close1()" id="menupopup">
-            <img onclick="close1()" src="./img/Icon.png" alt="icon-png">
+        <div class="menupopup"  id="menupopup">
+            <img id="closer"  src="./img/Icon.png" alt="icon-png">
             <ul>
                 <a href="#portfolio">Portfolio</a>
                 <a href="#about">About</a>
@@ -501,7 +501,7 @@
 
     </div>
     </div>
-
+    <script src="main.js"></script>
 </body>
 
 </html>
