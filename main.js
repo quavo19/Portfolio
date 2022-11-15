@@ -114,6 +114,10 @@ Projects.forEach((Project) => {
       <div class="col-3">
           <p class="dos">${Project.description}
           </p>
+          <p class="card-description">${`${Project.description.substring(
+    0,
+    150,
+  )}.`}</p>
       </div>
       <div class="col-4">
           <ul class="skill">
@@ -130,9 +134,26 @@ Projects.forEach((Project) => {
               </div>
           </a>
       </div>
+      <div class="card-actions">
+        <a  href=${
+  Project.live
+}><button type="submit" class="actions">See Live<img src="img/card-live.png"/></button></a>
+        <a href=${
+  Project.source
+}><button type="submit" class="actions">See Source<img src="img/card-github.png"/></button></a>
+      </div>
   </div>
 
 </header>
   `;
   Dynamic.innerHTML += content;
+});
+
+const Display = document.querySelectorAll('.tonic');
+Display.forEach((Element) => {
+  const description1 = Element.children[1].children[2].children[1];
+  const cardActionElement = Element.children[1].children[6];
+
+  description1.style.display = 'none';
+  cardActionElement.style.display = 'none';
 });
