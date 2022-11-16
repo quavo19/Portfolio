@@ -41,6 +41,30 @@ a {
   backdrop-filter: blur(7px);
 }
 
+.cards-blur {
+  position: fixed;
+  z-index: 1;
+  mix-blend-mode: multiply;
+  background:#c1c1c9;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+.blur {
+  backdrop-filter: blur(7px);
+}
+.blr {
+  position: fixed;
+  z-index: 1;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
 .menupopup img {
   width: 12px;
   height: 12px;
@@ -141,6 +165,63 @@ li {
   margin: 20px;
 }
 
+.card-pop {
+  z-index: 2;
+}
+#greet .name{
+  font-size: 2.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+button .actions {
+  font-size: 20px;
+}
+
+.actions img {
+  width: 18px;
+  height: 20px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  gap: 10px;
+}
+
+.card-actions .actions {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  color:  #6070ff;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.line span {
+  width: 210px;
+  height: 1.5px;
+  background: #6070ff;;
+}
+
+#closer1{
+  width: 20px;
+  height: 20px;
+}
+
+.greet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line img {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .greet .name {
   padding-top: 13px;
   padding-bottom: 13px;
@@ -213,9 +294,9 @@ ul .skill {
 
 .skill li a {
   padding: 4px 12px;
-  color: #fff;
-  outline: #0d0d17;
-  background: #0d0d17;
+  color: #6070ff;
+  outline: #ebebff;
+  background: #ebebff;
   border-radius: 8px;
   text-decoration: none;
 }
@@ -231,15 +312,25 @@ ul .skill {
 
 .col-5 {
   width: 160px;
-  border: 2px solid #0d1345;
+  border: 2px solid #6070ff;
   border-radius: 11px;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 50px;
+  border: 2px solid #6070ff;
+  border-radius: 11px; 
 }
 
 .two {
   padding: 12px;
   font-weight: 600;
   display: flex;
-  color: #0d0f20;
+  color: #6070ff;
   justify-content: center;
 }
 
@@ -533,6 +624,43 @@ input:focus {
     justify-content: space-between;
   }
 
+  .card-pop {
+    display: grid!important;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .card-pop .col-1 {
+    width: 100%!important;
+  }
+
+  .card-pop .tonic-2 {
+    width: 100%;
+    padding: 20px;
+    padding-top: 20%;
+    display: grid;
+    grid-template-columns: 60% 50%;
+  }
+
+  .card-pop .tonic .card-actions {
+    padding-bottom: 100px!important;
+    padding-left: 50px;
+  }
+
+  #img{
+    width: 100%!important;
+    height: 100%!important;
+  }
+  .card-pop .col-4 {
+    height: 50%;
+  }
+
+  .card-pop .card-actions {
+    position: absolute;
+    width: 75%;
+    padding-left: 45%;
+    padding-top: 5%;
+  }
   .col-1 {
     width: 55%;
     height: 100%;
