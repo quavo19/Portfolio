@@ -41,6 +41,32 @@ a {
   backdrop-filter: blur(7px);
 }
 
+.cards-blur {
+  position: fixed;
+  z-index: 1;
+  mix-blend-mode: multiply;
+  background: #c1c1c9;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.blur {
+  backdrop-filter: blur(7px);
+}
+
+.blr {
+  position: fixed;
+  z-index: 1;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
 .menupopup img {
   width: 12px;
   height: 12px;
@@ -141,10 +167,67 @@ li {
   margin: 20px;
 }
 
+.card-pop {
+  z-index: 2;
+}
+
 .greet .name {
   padding-top: 13px;
   padding-bottom: 13px;
   font-size: 2.5rem;
+}
+
+#greet .name {
+  font-size: 2.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+button .actions {
+  font-size: 20px;
+}
+
+.actions img {
+  width: 18px;
+  height: 20px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  width: 290px;
+  margin-top: 50px;
+}
+
+.card-actions .actions {
+  display: flex;
+  justify-content: center;
+  width: 290px;
+  color: #6070ff;
+  padding: 5px;
+}
+
+.line span {
+  width: 210px;
+  height: 1.5px;
+  background: #6070ff;
+}
+
+#closer1 {
+  width: 20px;
+  height: 20px;
+}
+
+.greet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line img {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .second-section {
@@ -182,7 +265,12 @@ li {
 .col-2 {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  padding: 10px 0;
+  width: 260px;
+}
+
+.col-3 {
+  font-weight: 400;
 }
 
 .dos {
@@ -199,7 +287,7 @@ li {
 
 .skill {
   display: flex;
-  width: 90%;
+  width: 270px;
   justify-content: space-between;
   color: #181c42;
 }
@@ -213,9 +301,9 @@ ul .skill {
 
 .skill li a {
   padding: 4px 12px;
-  color: #fff;
-  outline: #0d0d17;
-  background: #0d0d17;
+  color: #6070ff;
+  outline: #ebebff;
+  background: #ebebff;
   border-radius: 8px;
   text-decoration: none;
 }
@@ -231,7 +319,17 @@ ul .skill {
 
 .col-5 {
   width: 160px;
-  border: 2px solid #0d1345;
+  border: 2px solid #6070ff;
+  border-radius: 11px;
+  margin-top: 30px;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 2px solid #6070ff;
   border-radius: 11px;
 }
 
@@ -239,7 +337,7 @@ ul .skill {
   padding: 12px;
   font-weight: 600;
   display: flex;
-  color: #0d0f20;
+  color: #6070ff;
   justify-content: center;
 }
 
@@ -533,9 +631,58 @@ input:focus {
     justify-content: space-between;
   }
 
+  .tonic-2 {
+    padding: 20px;
+    width: 40%;
+  }
+
+  .card-pop {
+    display: grid !important;
+    width: 80%;
+    margin-left: 10%;
+  }
+
   .col-1 {
     width: 55%;
     height: 100%;
+  }
+
+  .card-pop .col-1 {
+    width: 100% !important;
+  }
+
+  .card-pop .tonic-2 {
+    width: 100%;
+    padding: 20px;
+    padding-top: 20%;
+    display: grid;
+    grid-template-columns: 60% 50%;
+  }
+
+  .view {
+    width: 40%;
+  }
+
+  .card-pop .card-actions {
+    position: absolute;
+    width: 75%;
+    justify-content: center;
+    padding-left: 45%;
+    padding-top: 70px;
+  }
+
+  .card-pop .tonic .card-actions {
+    padding-bottom: 100px !important;
+    padding-left: 50px;
+  }
+
+  #img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .card-pop .col-4 {
+    height: 50%;
   }
 
   .col-2 {
@@ -544,11 +691,6 @@ input:focus {
 
   .left {
     order: 1;
-  }
-
-  .tonic-2 {
-    padding: 20px;
-    width: 40%;
   }
 
   .about-section {
@@ -606,5 +748,25 @@ input:focus {
 
   .form {
     width: 30%;
+  }
+
+  .card-pop .line-container {
+    padding-left: 46.5%;
+    position: absolute;
+    padding-top: 4%;
+  }
+
+  .card-pop .skill {
+    width: 290px;
+    padding-left: 52px;
+  }
+
+  .card-pop .liner {
+    display: flex;
+    background: #ebecf0;
+    height: 2px !important;
+    margin: 30px !important;
+    position: absolute;
+    width: 50%;
   }
 }
