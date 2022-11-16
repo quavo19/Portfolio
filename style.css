@@ -658,9 +658,11 @@ input:focus {
     display: grid;
     grid-template-columns: 60% 50%;
   }
-  .view{
+
+  .view {
     width: 40%;
   }
+
   .card-pop .card-actions {
     position: absolute;
     width: 75%;
@@ -753,17 +755,18 @@ input:focus {
     position: absolute;
     padding-top: 4%;
   }
+
   .card-pop .skill {
     width: 290px;
     padding-left: 52px;
   }
 
   .card-pop .liner {
-  display: flex;
-  background: #ebecf0;
-  height: 2px !important;
-  margin: 30px !important;
-  position: absolute;
-  width: 50%;
+    display: flex;
+    background: #ebecf0;
+    height: 2px !important;
+    margin: 30px !important;
+    position: absolute;
+    width: 50%;
   }
 }
