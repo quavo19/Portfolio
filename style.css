@@ -195,17 +195,16 @@ button .actions {
 .card-actions {
   display: flex;
   justify-content: space-around;
-  padding-top: 30px;
   gap: 10px;
+  width: 290px;
+  margin-top: 50px;
 }
 
 .card-actions .actions {
   display: flex;
   justify-content: center;
-  gap: 5px;
+  width: 290px;
   color: #6070ff;
-  font-weight: 700;
-  font-size: 17px;
   padding: 5px;
 }
 
@@ -266,7 +265,12 @@ button .actions {
 .col-2 {
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  padding: 10px 0;
+  width: 260px;
+}
+
+.col-3 {
+  font-weight: 400;
 }
 
 .dos {
@@ -283,7 +287,7 @@ button .actions {
 
 .skill {
   display: flex;
-  width: 90%;
+  width: 270px;
   justify-content: space-between;
   color: #181c42;
 }
@@ -317,14 +321,14 @@ ul .skill {
   width: 160px;
   border: 2px solid #6070ff;
   border-radius: 11px;
+  margin-top: 30px;
 }
 
 .view {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 50px;
+  width: 50%;
   border: 2px solid #6070ff;
   border-radius: 11px;
 }
@@ -654,12 +658,15 @@ input:focus {
     display: grid;
     grid-template-columns: 60% 50%;
   }
-
+  .view{
+    width: 40%;
+  }
   .card-pop .card-actions {
     position: absolute;
     width: 75%;
+    justify-content: center;
     padding-left: 45%;
-    padding-top: 5%;
+    padding-top: 70px;
   }
 
   .card-pop .tonic .card-actions {
@@ -739,5 +746,24 @@ input:focus {
 
   .form {
     width: 30%;
+  }
+
+  .card-pop .line-container {
+    padding-left: 46.5%;
+    position: absolute;
+    padding-top: 4%;
+  }
+  .card-pop .skill {
+    width: 290px;
+    padding-left: 52px;
+  }
+
+  .card-pop .liner {
+  display: flex;
+  background: #ebecf0;
+  height: 2px !important;
+  margin: 30px !important;
+  position: absolute;
+  width: 50%;
   }
 }
