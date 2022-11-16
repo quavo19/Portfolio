@@ -45,15 +45,17 @@ a {
   position: fixed;
   z-index: 1;
   mix-blend-mode: multiply;
-  background:#c1c1c9;
+  background: #c1c1c9;
   height: 100%;
   width: 100%;
   top: 0;
   bottom: 0;
 }
+
 .blur {
   backdrop-filter: blur(7px);
 }
+
 .blr {
   position: fixed;
   z-index: 1;
@@ -168,7 +170,14 @@ li {
 .card-pop {
   z-index: 2;
 }
-#greet .name{
+
+.greet .name {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 2.5rem;
+}
+
+#greet .name {
   font-size: 2.5rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -194,7 +203,7 @@ button .actions {
   display: flex;
   justify-content: center;
   gap: 5px;
-  color:  #6070ff;
+  color: #6070ff;
   font-weight: 700;
   font-size: 17px;
   padding: 5px;
@@ -203,10 +212,10 @@ button .actions {
 .line span {
   width: 210px;
   height: 1.5px;
-  background: #6070ff;;
+  background: #6070ff;
 }
 
-#closer1{
+#closer1 {
   width: 20px;
   height: 20px;
 }
@@ -220,12 +229,6 @@ button .actions {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-}
-
-.greet .name {
-  padding-top: 13px;
-  padding-bottom: 13px;
-  font-size: 2.5rem;
 }
 
 .second-section {
@@ -323,7 +326,7 @@ ul .skill {
   width: 170px;
   height: 50px;
   border: 2px solid #6070ff;
-  border-radius: 11px; 
+  border-radius: 11px;
 }
 
 .two {
@@ -624,14 +627,24 @@ input:focus {
     justify-content: space-between;
   }
 
+  .tonic-2 {
+    padding: 20px;
+    width: 40%;
+  }
+
   .card-pop {
-    display: grid!important;
+    display: grid !important;
     width: 80%;
     margin-left: 10%;
   }
 
+  .col-1 {
+    width: 55%;
+    height: 100%;
+  }
+
   .card-pop .col-1 {
-    width: 100%!important;
+    width: 100% !important;
   }
 
   .card-pop .tonic-2 {
@@ -642,28 +655,25 @@ input:focus {
     grid-template-columns: 60% 50%;
   }
 
-  .card-pop .tonic .card-actions {
-    padding-bottom: 100px!important;
-    padding-left: 50px;
-  }
-
-  #img{
-    width: 100%!important;
-    height: 100%!important;
-  }
-  .card-pop .col-4 {
-    height: 50%;
-  }
-
   .card-pop .card-actions {
     position: absolute;
     width: 75%;
     padding-left: 45%;
     padding-top: 5%;
   }
-  .col-1 {
-    width: 55%;
-    height: 100%;
+
+  .card-pop .tonic .card-actions {
+    padding-bottom: 100px !important;
+    padding-left: 50px;
+  }
+
+  #img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .card-pop .col-4 {
+    height: 50%;
   }
 
   .col-2 {
@@ -672,11 +682,6 @@ input:focus {
 
   .left {
     order: 1;
-  }
-
-  .tonic-2 {
-    padding: 20px;
-    width: 40%;
   }
 
   .about-section {
