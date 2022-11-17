@@ -215,3 +215,16 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+// store data for later
+const NameData = document.querySelector('.name-input');
+const EmailData = document.querySelector('#mail');
+const TextData = document.querySelector('.msg-input');
+form.addEventListener('submit', () => {
+  const Data = {
+    Name: NameData.value,
+    Email: EmailData.value,
+    Text: TextData.value,
+  };
+  localStorage.setItem('data', JSON.stringify(Data));
+});
