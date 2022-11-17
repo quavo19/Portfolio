@@ -228,3 +228,11 @@ form.addEventListener('submit', () => {
   };
   localStorage.setItem('data', JSON.stringify(Data));
 });
+
+const AutoFiller = localStorage.getItem('data');
+if (AutoFiller) {
+  const DataStored = JSON.parse(localStorage.getItem('data'));
+  NameData.value = DataStored.Name;
+  EmailData.value = DataStored.Email;
+  TextData.value = DataStored.Text;
+}
