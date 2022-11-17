@@ -295,14 +295,14 @@
             I’d love to help with it </p>
 
         <div class="form">
-            <form class="form-details" action="https://formspree.io/f/xrgdoqno" method="post">
+            <form class="form-details" id="form" action="https://formspree.io/f/xrgdoqno" method="post">
                 <ul>
                     <li>
                         <input name="name" class="name-input" type="name" placeholder="Yeremias" maxlength="30"
                             required>
                     </li>
                     <li>
-                        <input class="email-input" name="Email" type="email" placeholder="natajayanj14@gmail.com"
+                        <input class="email-input" id="mail" name="Email" type="email" placeholder="natajayanj14@gmail.com"
                             required>
                     </li>
                     <li>
@@ -310,6 +310,7 @@
                             placeholder="Write your message here" maxlength="500" required></textarea>
                     </li>
                 </ul>
+                <div id="error"></div>
                 <button class="button" type="submit">Get In Touch </button>
 
             </form>

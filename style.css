@@ -578,6 +578,10 @@ input:focus {
   background: #bababc;
 }
 
+#error {
+  color: red;
+}
+
 @media (min-width: 900px) {
   .box2 {
     background-image: url('img/bigbg.png');
