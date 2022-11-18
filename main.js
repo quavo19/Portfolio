@@ -185,7 +185,6 @@ seeProject.forEach((button) => {
     closeBTN.style.display = 'flex';
     cardActionElement.style.display = 'flex';
     Dos.style.display = 'none';
-    cardsBackground.classList.add('cards-blur', 'blur');
     card.scrollIntoView({
       behavior: 'smooth',
       block: 'center',
