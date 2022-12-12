@@ -1,12 +1,12 @@
 
 # Personal Portfolio 
 
-## this is a project i made for my portfolio
+This is a project that displays all the projects i have made so far as a software developer. 
 
 ## Built With
 - html
 - css
-- figma
+- JavaScript
 
 ## Getting Started
 
