@@ -10,24 +10,24 @@ popup.addEventListener('click', () => {
 
 const Projects = [
   {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featuredImage: 'img/tonic.png',
+    name: 'Weather App',
+    description: 'A simple app that allows users to search results of temperatures around the globe',
+    description1: 'A simple app that allows users to search results of temperatures around the globe A weather app that pulls from the OpenWeatherMap API to allow users to search for and view the forecast in cities worldwide. Built with JavaScript. this project was made to help determine temperatures, wind speed and humidity of any given area. it makes you know upcomming conditions and how to prepare.',
+    featuredImage: 'img/tonic4.png',
     details: {
-      DName: 'canopy',
+      DName: 'Weather',
       dot1: ' ',
-      skill: 'Back End Dev',
+      skill: 'Front End Dev',
       dot2: ' ',
-      year: '2015',
+      year: '2022',
     },
     technologies: {
       first: 'Html',
       second: 'Css',
       third: 'JavaScript',
     },
-    liveVersionLink: 'none',
-    source: 'none',
+    liveVersionLink: 'https://quavo19.github.io/WeatherApp/',
+    source: 'https://github.com/quavo19/WeatherApp',
   },
   {
     name: 'Tonic',
@@ -73,7 +73,7 @@ const Projects = [
     name: 'Tonic',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    featuredImage: 'img/tonic4.png',
+    featuredImage: 'img/tonic.png',
     details: {
       DName: 'canopy',
       dot1: ' ',
