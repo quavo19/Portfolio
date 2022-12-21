@@ -168,7 +168,6 @@ seeProject.forEach((button) => {
   button.addEventListener('click', (e) => {
     const card = e.path.filter((el) => el.classList?.contains('tonic')).at(0);
 
-    const cardsBackground = document.querySelector('.cards-background');
     const Dos = card.children[1].children[2].children[0];
     const description1 = card.children[1].children[2].children[1];
     const cardActionElement = card.children[1].children[6];
@@ -177,7 +176,6 @@ seeProject.forEach((button) => {
     const before = card.children[0];
     const before2 = card.children[1].children[1];
     const seeProject2 = card.children[1].children[5];
-    card.classList.add('card-pop');
     before.insertBefore(dis, before.children[0]);
     before.insertBefore(before2, before.children[1]);
     description1.style.display = 'flex';
@@ -185,12 +183,6 @@ seeProject.forEach((button) => {
     closeBTN.style.display = 'flex';
     cardActionElement.style.display = 'flex';
     Dos.style.display = 'none';
-    cardsBackground.classList.add('cards-blur', 'blur');
-    card.scrollIntoView({
-      behavior: 'smooth',
-      block: 'center',
-      inline: 'center',
-    });
   });
 });
 const lock = document.querySelectorAll('#closer1');
