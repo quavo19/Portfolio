@@ -37,8 +37,6 @@ a {
   background-color: #6070ff;
   position: absolute;
   top: 0;
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(7px);
 }
 
 .cards-blur {
