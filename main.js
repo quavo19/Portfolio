@@ -172,12 +172,7 @@ seeProject.forEach((button) => {
     const description1 = card.children[1].children[2].children[1];
     const cardActionElement = card.children[1].children[6];
     const closeBTN = card.children[1].children[0].children[1];
-    const dis = card.children[1].children[0];
-    const before = card.children[0];
-    const before2 = card.children[1].children[1];
     const seeProject2 = card.children[1].children[5];
-    before.insertBefore(dis, before.children[0]);
-    before.insertBefore(before2, before.children[1]);
     description1.style.display = 'flex';
     seeProject2.style.display = 'none';
     closeBTN.style.display = 'flex';
