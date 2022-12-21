@@ -166,9 +166,8 @@ Display.forEach((Element) => {
 const seeProject = document.querySelectorAll('.two');
 seeProject.forEach((button) => {
   button.addEventListener('click', (e) => {
-    window.location.reload();
     const card = e.path.filter((el) => el.classList?.contains('tonic')).at(0);
-
+    window.location.reload();
     const Dos = card.children[1].children[2].children[0];
     const description1 = card.children[1].children[2].children[1];
     const cardActionElement = card.children[1].children[6];
