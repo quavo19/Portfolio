@@ -163,7 +163,7 @@ Display.forEach((Element) => {
   cardActionElement.style.display = 'none';
 });
 
-// const seeProject = document.querySelectorAll('.two');
+const seeProject = document.querySelectorAll('.two');
 // seeProject.forEach((button) => {
 //   button.addEventListener('click', (e) => {
 //     const card = e.path.filter((el) => el.classList?.contains('tonic')).at(0);
@@ -181,11 +181,11 @@ Display.forEach((Element) => {
 //   });
 // });
 // const lock = document.querySelectorAll('#closer1');
-// lock.forEach((Element) => {
-//   Element.addEventListener('click', () => {
-//     window.location.reload();
-//   });
-// });
+seeProject.forEach((Element) => {
+  Element.addEventListener('click', () => {
+    window.location.reload();
+  });
+});
 
 //  form validation
 const form = document.getElementById('form');
