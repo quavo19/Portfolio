@@ -163,29 +163,29 @@ Projects.forEach((Project) => {
 //   cardActionElement.style.display = 'none';
 // });
 
-const seeProject = document.querySelectorAll('.two');
-seeProject.forEach((button) => {
-  button.addEventListener('click', (e) => {
-    const card = e.path.filter((el) => el.classList?.contains('tonic')).at(0);
+// const seeProject = document.querySelectorAll('.two');
+// seeProject.forEach((button) => {
+//   button.addEventListener('click', (e) => {
+//     const card = e.path.filter((el) => el.classList?.contains('tonic')).at(0);
 
-    const Dos = card.children[1].children[2].children[0];
-    const description1 = card.children[1].children[2].children[1];
-    const cardActionElement = card.children[1].children[6];
-    const closeBTN = card.children[1].children[0].children[1];
-    const seeProject2 = card.children[1].children[5];
-    description1.style.display = 'flex';
-    seeProject2.style.display = 'none';
-    closeBTN.style.display = 'flex';
-    cardActionElement.style.display = 'flex';
-    Dos.style.display = 'none';
-  });
-});
-const lock = document.querySelectorAll('#closer1');
-lock.forEach((Element) => {
-  Element.addEventListener('click', () => {
-    window.location.reload();
-  });
-});
+//     const Dos = card.children[1].children[2].children[0];
+//     const description1 = card.children[1].children[2].children[1];
+//     const cardActionElement = card.children[1].children[6];
+//     const closeBTN = card.children[1].children[0].children[1];
+//     const seeProject2 = card.children[1].children[5];
+//     description1.style.display = 'flex';
+//     seeProject2.style.display = 'none';
+//     closeBTN.style.display = 'flex';
+//     cardActionElement.style.display = 'flex';
+//     Dos.style.display = 'none';
+//   });
+// });
+// const lock = document.querySelectorAll('#closer1');
+// lock.forEach((Element) => {
+//   Element.addEventListener('click', () => {
+//     window.location.reload();
+//   });
+// });
 
 //  form validation
 const form = document.getElementById('form');
