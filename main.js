@@ -153,15 +153,15 @@ Projects.forEach((Project) => {
   `;
   Dynamic.innerHTML += content;
 });
-// const Display = document.querySelectorAll('.tonic');
-// Display.forEach((Element) => {
-//   const description1 = Element.children[1].children[2].children[1];
-//   const closeBTN = Element.children[1].children[0].children[1];
-//   const cardActionElement = Element.children[1].children[6];
-//   description1.style.display = 'none';
-//   closeBTN.style.display = 'none';
-//   cardActionElement.style.display = 'none';
-// });
+const Display = document.querySelectorAll('.tonic');
+Display.forEach((Element) => {
+  const description1 = Element.children[1].children[2].children[1];
+  const closeBTN = Element.children[1].children[0].children[1];
+  const cardActionElement = Element.children[1].children[6];
+  description1.style.display = 'none';
+  closeBTN.style.display = 'none';
+  cardActionElement.style.display = 'none';
+});
 
 // const seeProject = document.querySelectorAll('.two');
 // seeProject.forEach((button) => {
