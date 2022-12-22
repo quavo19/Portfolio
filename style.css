@@ -576,6 +576,56 @@ input:focus {
   background: #bababc;
 }
 
+.modal-content {
+  width: 90%;
+  padding: 16px;
+  margin: 5% auto;
+  border: 1px solid #ebecf0;
+  box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.modal-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-image {
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.modal-btn-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-title {
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.modal-description {
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+}
+
+
 @media (min-width: 900px) {
   .box2 {
     background-image: url('img/bigbg.png');
