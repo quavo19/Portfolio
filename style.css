@@ -629,6 +629,10 @@ input:focus {
   color: #344563;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 @media (min-width: 900px) {
   .box2 {
     background-image: url('img/bigbg.png');
