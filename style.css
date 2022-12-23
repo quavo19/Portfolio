@@ -73,6 +73,14 @@ a {
   right: 5%;
 }
 
+.two a {
+  padding: 12px;
+  font-weight: 600;
+  display: flex;
+  color: #6070ff;
+  justify-content: center;
+}
+
 .menupopup ul {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -329,14 +337,6 @@ ul .skill {
   width: 50%;
   border: 2px solid #6070ff;
   border-radius: 11px;
-}
-
-.two {
-  padding: 12px;
-  font-weight: 600;
-  display: flex;
-  color: #6070ff;
-  justify-content: center;
 }
 
 .About {
@@ -606,7 +606,7 @@ input:focus {
 .modal-header {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -628,7 +628,6 @@ input:focus {
   line-height: 30px;
   color: #344563;
 }
-
 
 @media (min-width: 900px) {
   .box2 {
