@@ -1,11 +1,14 @@
 const Dynamic = document.querySelector('.second-section');
 const humburg = document.querySelector('.hamburger');
 const popup = document.querySelector('#menupopup');
+const body = document.getElementById('body');
 humburg.addEventListener('click', () => {
   popup.style.display = 'flex';
+  body.style.position = 'fixed';
 });
 popup.addEventListener('click', () => {
   popup.style.display = 'none';
+  body.style.position = 'relative';
 });
 
 const Projects = [
@@ -148,8 +151,6 @@ Projects.forEach((Project) => {
   </div>
 
 </header>
-<div class="br">
-</div>
   `;
   Dynamic.innerHTML += content;
 });
@@ -174,6 +175,7 @@ Projects.forEach((modal, index) => {
   const modalId = index;
   for (let i = 0; i < modalBtn.length; i += 1) {
     modalBtn[i].addEventListener('click', () => {
+      body.style.position = 'fixed';
       if (i === modalId) {
         projectModal.style.display = 'block';
         const modalVisible = ` <div id="mod" class="modal-content">
@@ -181,7 +183,9 @@ Projects.forEach((modal, index) => {
               <h3 class="modal-title">
               ${modalTitle}
               </h3>
-              <span class="close">x</span>
+              <span class="close">
+              <img id="closer"  src="./img/Icon.png" alt="icon-png">
+              </span>
             </div>
         <div class="modal-card">
           <img
@@ -204,14 +208,13 @@ Projects.forEach((modal, index) => {
             <p class="modal-description">
              ${modalDescription}
             </p>
-            <div class="modal-buttons modal-btn-sm d-md-none">
-                <a href="${modalLiveLink}" class="button btn-primary"
-                  target="_blank">See live <span class="icon-icon-go-link"></span
-                ></a>
-                <a href="${modalSourceLink}" class="button btn-primary"
-                target="_blank">See Source <span class="icon-github"></span
-                ></a>
-              </div>
+              <div class="card-actions">
+
+      <div class = "view">
+        <a  href="${modalLiveLink}"><div class="actions">See Live<img src="img/card-live.png"/></div></a></div>
+        <div class = "view"><a href="${modalSourceLink}"><div class="actions">See Source<img src="img/github.png"/></div></a></div>
+      </div>
+  </div>
           </div>
         </div>
       </div>`;
@@ -224,6 +227,7 @@ Projects.forEach((modal, index) => {
         for (let j = 0; j < closeModal.length; j += 1) {
           closeModal[j].addEventListener('click', () => {
             projectModal.style.display = 'none';
+            body.style.position = 'relative';
           });
           // close the modal when user clicks anywhere outside
           window.onclick = function clickedOutside(event) {
