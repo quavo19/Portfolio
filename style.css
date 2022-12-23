@@ -66,8 +66,6 @@ a {
 }
 
 .menupopup img {
-  width: 12px;
-  height: 12px;
   position: absolute;
   top: 20px;
   width: 17px;
@@ -702,12 +700,12 @@ input:focus {
     height: 100%;
   }
 
-  .tonic:nth-child(even) .col-1{
-    order: 1;
-  }
-
   .card-pop .col-1 {
     width: 100% !important;
+  }
+
+  .tonic:nth-child(even) .col-1 {
+    order: 1;
   }
 
   .card-pop .tonic-2 {
