@@ -132,7 +132,7 @@ Projects.forEach((Project) => {
       <div class = "line-container"><span class = "liner"></span></div>
       <div class="col-5">
               <div class="two">
-                  See Project
+              <a href="#body">See Project</a>
               </div>
       </div>
       <div class="card-actions">
@@ -176,13 +176,13 @@ Projects.forEach((modal, index) => {
     modalBtn[i].addEventListener('click', () => {
       if (i === modalId) {
         projectModal.style.display = 'block';
-        const modalVisible = ` <div class="modal-content">
+        const modalVisible = ` <div id="mod" class="modal-content">
         <div class="modal-header">
               <h3 class="modal-title">
               ${modalTitle}
               </h3>
+              <span class="close">x</span>
             </div>
-        <span class="close">x</span>
         <div class="modal-card">
           <img
             src="${modalImage}"
