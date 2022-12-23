@@ -579,8 +579,9 @@ input:focus {
   padding: 16px;
   margin: 5%;
   border: 1px solid #ebecf0;
-  height: 90vh;
+  height: 70vh;
   overflow-y: scroll;
+  overflow-x: hidden;
   top: 0;
   position: absolute;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
