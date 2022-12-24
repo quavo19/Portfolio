@@ -605,6 +605,7 @@ input:focus {
 .modal-header {
   display: flex;
   flex-direction: row;
+  height: 70px;
   align-items: center;
   justify-content: space-between;
 }
