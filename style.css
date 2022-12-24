@@ -602,6 +602,10 @@ input:focus {
   object-position: center;
 }
 
+.modal-text {
+  margin-left: 30px;
+}
+
 .modal-header {
   display: flex;
   flex-direction: row;
