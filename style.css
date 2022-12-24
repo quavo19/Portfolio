@@ -630,7 +630,8 @@ input:focus {
 .modal-description {
   font-size: 16px;
   line-height: 30px;
-  color: #344563;
+  height: 300px;
+  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
