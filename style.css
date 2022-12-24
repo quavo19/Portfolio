@@ -204,6 +204,7 @@ button .actions {
   gap: 10px;
   width: 290px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card-actions .actions {
