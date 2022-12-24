@@ -592,7 +592,7 @@ input:focus {
 .modal-card {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  height: 400px;
 }
 
 .modal-image {
