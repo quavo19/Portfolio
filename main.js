@@ -170,8 +170,8 @@ Projects.forEach((modal, index) => {
   const modalTitle = modal.name;
   const modalDescription = modal.description1;
   const modalImage = modal.featuredImage;
-  const modalLiveLink = modal.liveLink;
-  const modalSourceLink = modal.sourceLink;
+  const modalLiveLink = modal.liveVersionLink;
+  const modalSourceLink = modal.source;
   const modalId = index;
   for (let i = 0; i < modalBtn.length; i += 1) {
     modalBtn[i].addEventListener('click', () => {
