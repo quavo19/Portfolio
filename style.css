@@ -66,11 +66,19 @@ a {
 }
 
 .menupopup img {
-  width: 12px;
-  height: 12px;
   position: absolute;
-  top: 2%;
+  top: 20px;
+  width: 17px;
+  height: 17px;
   right: 5%;
+}
+
+.two a {
+  padding: 12px;
+  font-weight: 600;
+  display: flex;
+  color: #6070ff;
+  justify-content: center;
 }
 
 .menupopup ul {
@@ -80,11 +88,11 @@ a {
   flex-direction: column;
   font-weight: 600;
   font-size: 32px;
-  padding: 15% 5%;
+  padding: 5% 5%;
 }
 
 .menupopup ul a {
-  padding-top: 26px;
+  padding-bottom: 26px;
   color: #fff;
 }
 
@@ -195,7 +203,8 @@ button .actions {
   justify-content: space-around;
   gap: 10px;
   width: 290px;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card-actions .actions {
@@ -285,14 +294,12 @@ button .actions {
 
 .skill {
   display: flex;
-  width: 270px;
+  width: 250px;
   justify-content: space-between;
   color: #181c42;
 }
 
 ul .skill {
-  background: aqua;
-  width: 25%;
   text-align: center;
   border-radius: 5px;
 }
@@ -329,14 +336,6 @@ ul .skill {
   width: 50%;
   border: 2px solid #6070ff;
   border-radius: 11px;
-}
-
-.two {
-  padding: 12px;
-  font-weight: 600;
-  display: flex;
-  color: #6070ff;
-  justify-content: center;
 }
 
 .About {
@@ -576,6 +575,68 @@ input:focus {
   background: #bababc;
 }
 
+.modal-content {
+  width: 90%;
+  padding: 16px;
+  margin: 5%;
+  border: 1px solid #ebecf0;
+  height: 70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: 0;
+  position: absolute;
+  box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.modal-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+
+.modal-image {
+  border: 1px solid #dfe1e6;
+  border-radius: 8px;
+  max-width: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-btn-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-title {
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.modal-description {
+  font-size: 16px;
+  line-height: 30px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
 @media (min-width: 900px) {
   .box2 {
     background-image: url('img/bigbg.png');
@@ -647,6 +708,30 @@ input:focus {
 
   .card-pop .col-1 {
     width: 100% !important;
+  }
+
+  .modal-image {
+    width: 50%;
+  }
+
+  .modal-text {
+    margin-left: 30px;
+  }
+
+  .modal-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+  }
+
+  .modal-description {
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+  .tonic:nth-child(even) .col-1 {
+    order: 1;
   }
 
   .card-pop .tonic-2 {

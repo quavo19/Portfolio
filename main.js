@@ -1,11 +1,14 @@
 const Dynamic = document.querySelector('.second-section');
 const humburg = document.querySelector('.hamburger');
 const popup = document.querySelector('#menupopup');
+const body = document.getElementById('body');
 humburg.addEventListener('click', () => {
   popup.style.display = 'flex';
+  body.style.position = 'fixed';
 });
 popup.addEventListener('click', () => {
   popup.style.display = 'none';
+  body.style.position = 'relative';
 });
 
 const Projects = [
@@ -132,7 +135,7 @@ Projects.forEach((Project) => {
       <div class = "line-container"><span class = "liner"></span></div>
       <div class="col-5">
               <div class="two">
-                  See Project
+              <a href="#body">See Project</a>
               </div>
       </div>
       <div class="card-actions">
@@ -148,8 +151,6 @@ Projects.forEach((Project) => {
   </div>
 
 </header>
-<div class="br">
-</div>
   `;
   Dynamic.innerHTML += content;
 });
@@ -163,23 +164,83 @@ Display.forEach((Element) => {
   cardActionElement.style.display = 'none';
 });
 
-const seeProject = document.querySelectorAll('.two');
-seeProject.forEach((button) => {
-  button.addEventListener('click', (e) => {
-    const card = e.path.filter((el) => el.classList?.contains('tonic')).at(0);
-    window.location.reload();
-    const Dos = card.children[1].children[2].children[0];
-    const description1 = card.children[1].children[2].children[1];
-    const cardActionElement = card.children[1].children[6];
-    const closeBTN = card.children[1].children[0].children[1];
-    const seeProject2 = card.children[1].children[5];
-    description1.style.display = 'flex';
-    seeProject2.style.display = 'none';
-    closeBTN.style.display = 'flex';
-    cardActionElement.style.display = 'flex';
-    Dos.style.display = 'none';
-  });
+const modalBtn = document.getElementsByClassName('two');
+const projectModal = document.getElementById('project-modal');
+Projects.forEach((modal, index) => {
+  const modalTitle = modal.name;
+  const modalDescription = modal.description1;
+  const modalImage = modal.featuredImage;
+  const modalLiveLink = modal.liveVersionLink;
+  const modalSourceLink = modal.source;
+  const modalId = index;
+  for (let i = 0; i < modalBtn.length; i += 1) {
+    modalBtn[i].addEventListener('click', () => {
+      body.style.position = 'fixed';
+      if (i === modalId) {
+        projectModal.style.display = 'block';
+        const modalVisible = ` <div id="mod" class="modal-content">
+        <div class="modal-header">
+              <h3 class="modal-title">
+              ${modalTitle}
+              </h3>
+              <span class="close">
+              <img id="closer"  src="./img/Icon.png" alt="icon-png">
+              </span>
+            </div>
+        <div class="modal-card">
+          <img
+            src="${modalImage}"
+            class="modal-image"
+            alt="${modalTitle}"
+          />
+          <div class="modal-text">
+            <ul class="modal-tags categories">
+            <div class="col-4">
+          <ul class="skill">
+              <li><a href="">${Projects[i].technologies.first}</a></li>
+              <li><a href="">${Projects[i].technologies.second}</a></li>
+              <li><a href="">${Projects[i].technologies.third}</a></li>
+              
+          </ul>
+
+      </div> 
+            </ul>
+            <p class="modal-description">
+             ${modalDescription}
+            </p>
+              <div class="card-actions">
+
+      <div class = "view">
+        <a  href="${modalLiveLink}"><div class="actions">See Live<img src="img/card-live.png"/></div></a></div>
+        <div class = "view"><a href="${modalSourceLink}"><div class="actions">See Source<img src="img/github.png"/></div></a></div>
+      </div>
+  </div>
+          </div>
+        </div>
+      </div>`;
+
+        projectModal.style.display = 'block';
+        projectModal.innerHTML = modalVisible;
+
+        // close the modal
+        const closeModal = document.getElementsByClassName('close');
+        for (let j = 0; j < closeModal.length; j += 1) {
+          closeModal[j].addEventListener('click', () => {
+            projectModal.style.display = 'none';
+            body.style.position = 'relative';
+          });
+          // close the modal when user clicks anywhere outside
+          window.onclick = function clickedOutside(event) {
+            if (event.target === projectModal) {
+              projectModal.style.display = 'none';
+            }
+          };
+        }
+      }
+    });
+  }
 });
+
 const lock = document.querySelectorAll('#closer1');
 lock.forEach((Element) => {
   Element.addEventListener('click', () => {
