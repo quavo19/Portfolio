@@ -563,8 +563,6 @@ textarea {
   color: #fff;
 }
 
-/* desktop version mode */
-
 .nav-list {
   display: none;
 }
@@ -633,8 +631,10 @@ input:focus {
 }
 
 ::-webkit-scrollbar {
-  width: 0;
+  display: none;
 }
+
+/* desktop version mode */
 
 @media (min-width: 900px) {
   .box2 {
